@@ -1,4 +1,4 @@
 #!/usr/bin/with-contenv bash
 
 echo "**** installing SVN extension ****"
-code-server --install-extension johnstoncode.svn-scm
+code-server --user-data-dir /config/data --extensions-dir /config/extensions --install-extension johnstoncode.svn-scm
